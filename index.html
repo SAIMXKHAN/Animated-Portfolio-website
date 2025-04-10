@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.config.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+    <title>Porfolio Website</title>
+  </head>
+  <body class="m-0 p-0 text-[lightgray] font-sans">
+    <div class="relative w-full h-full flex flex-col items-center gap-[100px]">
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        class="back-vid fixed right-0 bottom-0 z-[-1] mix-blend-overlay"
+        src="videos/galaxy.mp4"
+        type="video/mp4"
+      ></video>
+
+        <header class="flex absolute top-0 right-0 left-0 items-center justify-between h-[70px] bg-[rgba(255,255,255,0.123)] backdrop-blur-[10px] px-[30px] shadow-[0_0_15px_#72a1de68] z-[999]">
+            <div class="left flex items-center">
+                <img src="images/miladicode.png" class="w-[40px] mx-[15px]" alt="logo">
+                <h1 class="text-white text-[32px] font-semibold"><span class="text-[#72a1de]">Saim</span>Khan</h1>
+            </div>
+
+            <ul class="flex  justify-between w-[30%] py-[15px] px-[15px] rounded-[50px] bg-[rgba(0,0,69,0.30)] backdrop-blur-[10px] shadow-[0_0_10px_#727fdea0]">
+                <li class="text-white font-[700] mx-[10px]"><a href="#">About</a></li>
+                <li class="text-white font-[700] mx-[10px]"><a href="#">Skills</a></li>
+                <li class="text-white font-[700] mx-[10px]"><a href="#">Projects</a></li>
+            </ul>
+
+            <div class="box-icons flex gap-[40px]">
+                <a href="#" class="flex justify-center items-center text-[20px] w-[30px] h-[30px] border-[2px] border-[#727fde] rounded-[50%] hover:bg-[#727fde] hover:text-black hover:shadow-[0_0_15px_#727fde65] transition-all duration-300"><i class='bx bxl-youtube'></i></a>
+                <a href="#" class="flex justify-center items-center text-[20px] w-[30px] h-[30px] border-[2px] border-[#727fde] rounded-[50%] hover:bg-[#727fde] hover:text-black hover:shadow-[0_0_15px_#727fde65] transition-all duration-300"><i class='bx bxl-github'></i></a>
+                <a href="#" class="flex justify-center items-center text-[20px] w-[30px] h-[30px] border-[2px] border-[#727fde] rounded-[50%] hover:bg-[#727fde] hover:text-black hover:shadow-[0_0_15px_#727fde65] transition-all duration-300"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </header>
+
+        <div class="blackhole-box absolute top-0 w-[100%] justify-center mix-blend-lighten">
+            <video loop autoplay muted playsinline src="videos/blackhole.mp4" class="w-[100%] mt-[-24%]" type="video/mp4" ></video>
+        </div>
+
+        <div class="hero relative flex w-[100%] h-[100vh] items-center justify-between">
+            <div class="hero-info absolute left-[5%]">
+                <div class="hero-info-title text-[#727fde] py-[8px] px-[5px] border-[1px] border-[#7275de77] w-[250px] rounded-[50px] bg-[#2200493d] shadow-[0_0_5px_#727fde]">
+                    <i class='bx bxl-sketch'></i>
+                    Front-end Developer Portfolio
+                </div>
+
+                <h1 class="text-[60px]  max-w-[600px] text-white font-semibold mt-[40px] mb-[30px] leading-[70px]">Providing <span class="gradient">the best </span>Project <span class="gradient">Experience</span></h1>
+                <p class="max-w-[550px] leading-[25px] mb-[40px] text-[20px]">I'm a Front-end developer with Experience in website, 
+                   Mobile and Software developement. Check out my and skills</p>
+                <button class="text-white py-[15px] px-[35px] rounded-[10px] border-[1px] border-[#727fdeb4] bg-[#2200493d] transition-all duration-300 shadow-[0_0_5px_#727fde86] hover:shadow-[0_0_15px_#727fde86]"><i class='bx bx-send'></i> Contact Me</button>
+            </div>
+
+            <div class="hero-vid-box absolute right-[3%] mix-blend-difference ">
+              <video autoplay loop muted playsinline src="videos/hero-video.mp4" class="h-[900px] justify-center " type="video/mp4"></video>
+            </div>
+
+            <div class="scroll-down  h-[50px] w-[30px] border-[2px] border-[lightgray] absolute left-[49%]"></div>
+
+        </div>  
+
+    </div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
