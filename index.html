@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -92,7 +92,7 @@
       <div
         class="hero relative flex w-[100%] h-[100vh] items-center justify-between"
       >
-        <div class="hero-info absolute left-[5%]">
+        <div class="hero-info autoBlur absolute left-[5%]">
           <div
             class="hero-info-title text-[#727fde] py-[8px] px-[5px] border-[1px] border-[#7275de77] w-[250px] rounded-[50px] bg-[#2200493d] shadow-[0_0_5px_#727fde]"
           >
@@ -118,8 +118,8 @@
           </button>
         </div>
 
-        <!-- <div class="hero-vid-box absolute right-[0%] mix-blend-difference">
-              <video autoplay loop muted playsinline src="videos/hero-video.mp4" class="h-[900px] justify-center " type="video/mp4"></video>
+        <!-- <div class="hero-vid-box  absolute right-[0%] mix-blend-difference">
+              <video autoplay loop muted playsinline src="videos/hero-video.mp4" class="h-[900px] justify-center autoBlur" type="video/mp4"></video>
         </div> -->
 
         <div
@@ -128,7 +128,7 @@
       </div>
 
       <div class="info-section">
-        <h1>Hello, there👋</h1>
+        <h1 class="autoDisplay">Hello, there👋</h1>
         <div class="info-cards">
           <div class="card">
             <h1>Hi there, I'm Saim</h1>
@@ -183,7 +183,7 @@
         class="my-projects flex flex-col gap-[10%] items-center relative w-[80%] h-[100vh] mt-[200px] mb-[700px]"
       >
         <div class="flex items-center">
-          <h1 class="font-[700] text-[40px]">My Projects</h1>
+          <h1 class="font-[700] text-[40px] autoDisplay">My Projects</h1>
           <img
             src="man-technologist_1f468-200d-1f4bb.png"
             class="h-12 w-12 ml-2"
@@ -194,7 +194,7 @@
           class="projext-card flex w-[100%] h-[40%] items-center gap-[10%] justify-center"
         >
           <div
-            class="project-vidbox flex items-center justify-center w-[50%] relative cursor-pointer min-w-[400px] transition duration-500 mix-blend-difference"
+            class="project-vidbox autoBlur flex items-center justify-center w-[50%] relative cursor-pointer min-w-[400px] transition duration-500 mix-blend-difference"
           >
             <video
               src="videos/project1.mp4"
@@ -202,7 +202,7 @@
             ></video>
           </div>
           <div
-            class="project-info flex flex-col items-start justify-center w-[50%] pl-[3%]"
+            class="project-info fadeInRight flex flex-col items-start justify-center w-[50%] pl-[3%]"
           >
             <h1
               class="w-[90%] text-[25px] font-bold text-nowrap mb-[10px] mt-0 max-w-[450px]"
@@ -230,7 +230,7 @@
           class="projext-card flex w-[100%] h-[40%] items-center gap-[10%] justify-center"
         >
           <div
-            class="project-vidbox flex items-center justify-center w-[50%] relative cursor-pointer min-w-[400px] transition duration-500 mix-blend-difference"
+            class="project-vidbox autoBlur flex items-center justify-center w-[50%] relative cursor-pointer min-w-[400px] transition duration-500 mix-blend-difference"
           >
             <video
               src="videos/project2.mp4"
@@ -238,7 +238,7 @@
             ></video>
           </div>
           <div
-            class="project-info flex flex-col items-start justify-center w-[50%] pl-[3%]"
+            class="project-info fadeInRight flex flex-col items-start justify-center w-[50%] pl-[3%]"
           >
             <h1
               class="w-[90%] text-[25px] font-bold text-nowrap mb-[10px] mt-0 max-w-[450px]"
@@ -266,7 +266,7 @@
           class="projext-card flex w-[100%] h-[40%] items-center gap-[10%] justify-center"
         >
           <div
-            class="project-vidbox flex items-center justify-center w-[50%] relative cursor-pointer min-w-[400px] transition duration-500 mix-blend-difference"
+            class="project-vidbox autoBlur flex items-center justify-center w-[50%] relative cursor-pointer min-w-[400px] transition duration-500 mix-blend-difference"
           >
             <video
               src="videos/project3.mp4"
@@ -274,7 +274,7 @@
             ></video>
           </div>
           <div
-            class="project-info flex flex-col items-start justify-center w-[50%] pl-[3%]"
+            class="project-info fadeInRight flex flex-col items-start justify-center w-[50%] pl-[3%]"
           >
             <h1
               class="w-[90%] text-[25px] font-bold text-nowrap mb-[10px] mt-0 max-w-[450px]"
@@ -300,7 +300,7 @@
       </section>
 
       <div class="skills-section flex flex-col items-center relative">
-        <h1 class="font-[700] text-[40px]">My Skills 💪</h1>
+        <h1 class="font-[700] text-[40px] autoDisplay">My Skills 💪</h1>
         <div
           class="skills-box w-[100%] h-[90vh] relative flex items-start justify-center"
         >
@@ -311,7 +311,7 @@
           />
 
           <div
-            class="designer absolute flex flex-col items-start top-[25%] left-[5%] max-w-[300px]"
+            class="designer autoDisplay absolute flex flex-col items-start top-[25%] left-[5%] max-w-[300px]"
           >
             <h1
               class="gradient text-[50px] flex items-center font-semibold mb-[50px]"
@@ -326,7 +326,7 @@
           </div>
 
           <div
-            class="coder absolute flex flex-col items-start top-[25%] right-[5%] max-w-[300px]"
+            class="coder autoDisplay absolute flex flex-col items-start top-[25%] right-[5%] max-w-[300px]"
           >
             <h1
               class="gradient text-[50px] flex items-center font-semibold mb-[50px]"
@@ -381,10 +381,12 @@
       <section
         class="contact-section w-[80%] h-[100vh] flex justify-center gap-[10%] items-center relative"
       >
-        <h1 class="font-[700] text-[40px] absolute top-[8%] left-[40%]">
+        <h1
+          class="font-[700] autoDisplay text-[40px] absolute top-[8%] left-[40%]"
+        >
           Let's talk😊
         </h1>
-        <div class="social-box flex flex-col gap-[25px]">
+        <div class="social-box autoBlur flex flex-col gap-[25px]">
           <a href="" class="text-[light-gray] text-[20px] text-nowrap"
             ><i
               class="bx bxs-phone-call text-[#727fde] text-[30px] mr-[10px]"
@@ -422,7 +424,7 @@
           </div>
         </div>
 
-        <div class="contact-box">
+        <div class="contact-box autoBlur">
           <p class="max-w-[400px] mt-[30px] mb-[5px]">
             Wheter you're looking to build a new website. improve your existing
             platform, or bring a unique project to file. i.m here to help
@@ -457,12 +459,14 @@
         </div>
       </section>
 
-      <footer class="flex absolute bottom-0 right-0 left-0 items-center justify-center h-[70px] bg-[rgba(255,255,255,0.128)] backdrop-blur-[10px] shadow-[0_0_15px_rgba(255,255,255,0.356)]
-      z-[999]">
-        <h1 class="font-[600] text-[30px]">Copyright <span class="text-purple-700 font-bold">©</span> Saim, Made with 💖 by SaimKhan</h1>
-
+      <footer
+        class="flex absolute bottom-0 right-0 left-0 items-center justify-center h-[70px] bg-[rgba(255,255,255,0.128)] backdrop-blur-[10px] shadow-[0_0_15px_rgba(255,255,255,0.356)] z-[999]"
+      >
+        <h1 class="font-[600] text-[30px]">
+          Copyright <span class="text-purple-700 font-bold">©</span> Saim, Made
+          with 💖 by SaimKhan
+        </h1>
       </footer>
-
     </div>
 
     <script src="app.js"></script>
